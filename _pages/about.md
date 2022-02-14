@@ -1,11 +1,11 @@
 ---
 title: About Dominic
-subtitle:
+subtitle: Networking, Cloud Compute, InfoSec, & DevOps
 description:
 featured_image: /images/demo/demo-portrait.jpg
 ---
 
-![](/images/demo/demo-landscape.jpg)
+![](/images/demo/beyond-light.jpg)
 
 ## Who am I?!
 
