@@ -1,6 +1,6 @@
 basic_settings:
-  site_title: Journal
-  site_tagline: A stunning personal blog Jekyll theme with an image-focused design.
+  site_title: Dominic Polizzi
+  site_tagline: Forward-thinking and passionate tinkerer. Privacy is the name; Security is the game.
   favicon_image: /images/favicon.png
 
 header_settings:
@@ -46,7 +46,7 @@ social_settings:
   dribbble_url: ''
   behance_url: ''
   deviantart_url: ''
-  github_url: ''
+  github_url: 'https://github.com/DomPolizzi'
   reddit_url: ''
   flickr_url: ''
   etsy_url: ''
@@ -54,7 +54,7 @@ social_settings:
   soundcloud_url: ''
   spotify_url: ''
   bandcamp_url: ''
-  linkedin_url: ''
+  linkedin_url: 'https://www.linkedin.com/in/dominic-polizzi/'
 
 color_settings:
   background_color: '#ffffff'
@@ -69,9 +69,9 @@ color_settings:
   error_color: '#D64541'
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400|Muli:400,400i,600" rel="stylesheet">'
-  title_font: '"Merriweather", sans-serif'
-  body_font: '"Muli", sans-serif'
+  font_embed: '<link href="https://fonts.googleapis.com/css2?family=Nova+Cut&display=swap" rel="stylesheet">'
+  title_font: '"Nova Cut", cursive'
+  body_font: '"Muli", cursive'
   regular_weight: 400
   bold_weight: 600
   site_title:
