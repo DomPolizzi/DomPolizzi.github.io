@@ -1,35 +1,19 @@
 ---
-title: About Journal
-subtitle: A stunning personal blog Jekyll theme with an image-focused design.
-description: A stunning personal blog Jekyll theme with an image-focused design.
+title: About Dominic
+subtitle:
+description:
 featured_image: /images/demo/demo-portrait.jpg
 ---
 
 ![](/images/demo/demo-landscape.jpg)
 
-## Features
+## Who am I?!
 
-Journal is packed with powerful features to showcase your work:
 
-* Beautiful, minimal design
-* Fixed sidebar images that animate as you browse
-* Single column post layout
-* Responsive – works perfectly on all devices
-* Portfolio/projects post type to show your work
-* Blog with pagination
-* Sleek Ajax navigation and page transitions
-* Unique 'gallery' feature for image grids and carousels
-* Built-in contact form with Formspree integration
-* Full markdown support and code highlighting
-* Social media icons
-* Fast page rendering
-* Built with SEO best practices in mind
-* Customize everything – colors, spacing, fonts, sizes etc. – via a simple settings file
-* Works with GitHub Pages
-* Updated and supported by the developers
+I started my journey by playing with emulators, fixing electronics, and modding smartphones in grade school. After tinkering with custom ROMs/firmware and getting my A+, I fell in love with Development and found an internship that led to a full-stack Developer role. From there, I continued to dive into Networking, Cloud computing, and Containerization, which led me into the DevOps community. I have always been an enthusiast of security and privacy, optimizing and streamlining processes, and doing better in any capacity. When I am not learning or tinkering with technology, I am usually out in nature or moving around and listening to an audiobook. I enjoy making music, listening to audiobooks( I also enjoy reading, but it's easier to move and listen than to read), and exploring new hobbies.
+ 
+ Passionate to learn, excited to grow, and eager to collaborate with everyone!
 
-## Get Index
+## What is this?
 
-Journal is created and supported by [Jekyll Themes](https://jekyllthemes.io), and is available for $49.
-
-<a href="https://jekyllthemes.io/theme/journal-personal-jekyll-theme" class="button button--large">Get This Theme</a>
+"MySpace" but mine. I like to post about projects currently undergoing and about events I find interesting. Almost always open to conversate, send me a message on Linkedin ;) 
