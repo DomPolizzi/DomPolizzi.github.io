@@ -22,14 +22,14 @@ This "impossible" task may seem complicated, but I assure you it is a cakewalk! 
 
 ### Requirements:
 
-1.	Patience, this is a base requirement in general. 😉
+1. Patience, this is a base requirement in general. 😉
 
-2.  A live image of OPNSense flashed to a USB (or whatever OS you want to use)
-*	Make sure you review base requirements for your Operating System of choice, I am using OPNSense. [^2]
+2. A live image of OPNSense flashed to a USB (or whatever OS you want to use)
+*  Make sure you review base requirements for your Operating System of choice, I am using OPNSense. [^2]
 
-3.	Storage device, I used an SSD; you can use an HDD or a USB drive as your storage. This will go in your ASA and serve as its storage device.
+3. Storage device, I used an SSD; you can use an HDD or a USB drive as your storage. This will go in your ASA and serve as its storage device.
 
-4.	IDC 16 PIN to VGA Adapter [^1]
+4. IDC 16 PIN to VGA Adapter ( [$6 USD from PCCABLES.com](https://www.pccables.com/VGA_PORT_HD15F_PORT_To_IDC16.html) ) [^1] 
 
 
 ### Get started:
@@ -71,8 +71,7 @@ I hope this helps; feel free to email me or message me on Linkedin;  I love to c
 
  All the best,
  Dominic
-
- #### Links:
+#### Links:
 
 [^1]: [VGA Port HD15F Adapter to IDC16 from PC Cables](https://www.pccables.com/VGA_PORT_HD15F_PORT_To_IDC16.html).
 [^2]: [OPNSense](https://opnsense.org/).
