@@ -23,12 +23,9 @@ This "impossible" task may seem complicated, but I assure you it is a cakewalk! 
 ### Requirements:
 
 1. Patience, this is a base requirement in general. 😉
-
 2. A live image of OPNSense flashed to a USB (or whatever OS you want to use)
    *  Make sure you review base requirements for your Operating System of choice, I am using OPNSense. [^2]
-
 3. Storage device, I used an SSD; you can use an HDD or a USB drive as your storage. This will go in your ASA and serve as its storage device.
-
 4. IDC 16 PIN to VGA Adapter ( [$6 USD from PCCABLES.com](https://www.pccables.com/VGA_PORT_HD15F_PORT_To_IDC16.html) ) [^1] 
 
 
@@ -37,6 +34,9 @@ This "impossible" task may seem complicated, but I assure you it is a cakewalk! 
 1. Identify your Device (Cisco ASA Model):
    * Open the ASA up, read documents (that you can find) on your model, look into the specifcations
    * On the motherboard, you should see a PINOUT for VGA (16 PIN IDC [^1]). This PINOUT will be your entryway into the machine and allow you to bypass ROMMON. 
+<div class="gallery" data-columns="1">
+     * <img src="/images/img/asa-vga.jpg">
+</div>
 
 2. Make your Bootable device:
    * I used Rufus[^3] and the VGA OPNSense[^2] image. If you are here, I assume you already understand this topic, so I will leave you to your own devices 😉 
@@ -51,13 +51,9 @@ This "impossible" task may seem complicated, but I assure you it is a cakewalk! 
 
 1. Power on your device and enter the bios (Hitting F2 for me) 
    *  (boot screen took almost a minute to appear after power-on)
-
 2. In BIOS, Disable ROMMON.
-
 3. Switch the boot order; Make the USB the primary and HDD (boot device) as secondary.
-
 4. Save changes and reboot.
-
 5. Enjoy the POWER! - Powering the ASA back on should find the bootable device. 
    *  Install your Operating system! BONUS Points if you can run DOOM on it . . .
 
