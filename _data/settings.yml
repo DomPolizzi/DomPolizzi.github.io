@@ -69,9 +69,9 @@ color_settings:
   error_color: '#D64541'
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css2?family=Nova+Cut&display=swap" rel="stylesheet">'
-  title_font: '"Nova Cut", cursive'
-  body_font: '"Muli", cursive'
+  font_embed: '<link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">'
+  title_font: '"Inconsolata"'
+  body_font: '"Inconsolata"'
   regular_weight: 400
   bold_weight: 600
   site_title:
