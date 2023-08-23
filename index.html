@@ -5,29 +5,39 @@ description: Here to contribute
 featured_image: /images/demo/demo-landscape.jpg
 ---
 
-<section class="blog single">
+<section class="intro">
 
 	<div class="wrap">
 
-		{% for project in paginator.projects %}
+		<h1>{{ page.title }}</h1>
+		<p>{{ page.subtitle }}</p>
 
-		<article class="blog-post">
+	</div>
 
-			<div class="blog-post__header">
-				<h2 class="blog-post__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-				<p class="blog-post__subtitle">{{ post.date | date_to_long_string }}</p>
-			</div>
+</section>
 
-			{% if post.featured_image %}
-			<a href="{{ post.url | relative_url }}" class="blog-post__image" style="background-image: url({{ post.featured_image | relative_url }});"></a>
-			{% endif %}
+<section class="portfolio">
 
-			<div class="blog-post__content">
-				<p>{{ post.excerpt }}</p>
-				<p><a href="{{ post.url | relative_url }}" class="button">Read More</a>
-			</div>
+	<div class="wrap">
 
-		</article>
+		{% for project in site.projects reversed %}
+
+		<div class="portfolio-item">
+
+			<a class="portfolio-item__link" href="{{ project.url | relative_url }}">
+
+				<div class="portfolio-item__image" style="background-image: url({{ project.featured_image | relative_url }});"></div>
+
+				<div class="portfolio-item__content">
+					<div class="portfolio-item__info">
+						<h2 class="portfolio-item__title">{{ project.title }}</h2>
+						<p class="portfolio-item__subtitle">{{ project.subtitle }}</p>
+					</div>
+				</div>
+
+			</a>
+
+		</div>
 
 		{% endfor %}
 
