@@ -2,7 +2,7 @@
 
 echo "For Development Purposes!"
 
-docker build -t dev-image .
+###docker build -t dev-image .
 
 docker compose up -d
 
