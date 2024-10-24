@@ -4,10 +4,10 @@ variables:
   TARGET_PLATFORMS: linux/amd64,linux/arm64
 
 include:
-  - project: "https://gitlab.com/void-realm-solutions/ci-cd"
+  - project: "void-realm-solutions/ci-cd"
     file: "/tasks/docker-runner-config/.docker-runner-config.yml"
     ref: main
-  - project: "https://gitlab.com/void-realm-solutions/ci-cd"
+  - project: "void-realm-solutions/ci-cd"
     file: "/tasks/manual-sec-scan/.manual-sec-scan.yml"
     ref: main
 
