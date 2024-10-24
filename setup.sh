@@ -6,4 +6,5 @@ docker build -t dev-image .
 
 docker compose up -d
 
+echo "=========================================="
 echo "Application exposed on port 80"
