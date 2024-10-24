@@ -1,5 +1,3 @@
-version: "3.8"
-
 services:
   jekyll-container:
     image: dev-image:latest
@@ -10,7 +8,13 @@ services:
       - ./app:/app
       - ./dev-configs:/etc/nginx/conf.d
     ports:
-      - "80:80"
+      - target: 4000
+        published: 80
+    networks:
+    - jekyll-network
+    command: bundle exec jekyll serve --livereload --host 0.0.0.0
+
+  
 networks:
-  my-network:
+  jekyll-network:
     driver: bridge

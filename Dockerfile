@@ -1,25 +1,25 @@
-
 FROM debian:bookworm-slim
 
-
-RUN apt-get update && apt-get install -y \
-    ruby \
-    ruby-bundler \
-    ruby-dev \
-    nano \
-    systemctl \
-    nginx \
+# Install necessary dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    ruby-full \
     build-essential \
- && rm -rf /var/lib/apt/lists/* 
-
+    zlib1g-dev \ 
+    && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 
+# Copy Gemfile first to install dependencies
+COPY ./app/Gemfile ./
 
-RUN ruby --version && bundle --version && gem install bundler jekyll
+# Install bundler and the gems from Gemfile
+RUN gem install bundler && bundle install
 
+# Copy the rest of the application files from the app subdirectory
+COPY app/ .
 
-# RUN apt install build-essential -y \ 
-#     gem install bundler jekyll
+# Expose the default Jekyll port
+EXPOSE 4000
 
-CMD ["irb"]
+# Command to run the Jekyll server with livereload
+CMD ["bundle exec jekyll serve --livereload --host 0.0.0.0"]
