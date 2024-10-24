@@ -38,7 +38,6 @@ Build:
     - docker push $IMAGE
     - docker push $CACHE_IMAGE
 
-# Manual Security Scans | /tasks/manual-sec-scan
 sec-scan:
   stage: manual-sec-scan
 
@@ -51,4 +50,3 @@ trivy-scan-severe:
 all-scan:
   stage: manual-sec-scan
 
-# End
