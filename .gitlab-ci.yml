@@ -1,0 +1,52 @@
+variables:
+  IMAGE: $CI_REGISTRY_IMAGE:$CI_COMMIT_SHA
+  CACHE_IMAGE: $CI_REGISTRY_IMAGE:cache
+  TARGET_PLATFORMS: linux/amd64,linux/arm64
+
+include:
+  - project: "void-realm-solutions/ci-cd"
+    file: "/tasks/docker-runner-config/.docker-runner-config.yml"
+    ref: main
+  - project: "void-realm-solutions/ci-cd"
+    file: "/tasks/manual-sec-scan/.manual-sec-scan.yml"
+    ref: main
+
+stages:
+  - build
+  - manual-sec-scan
+
+Build:
+  extends:
+    - .shared_runner_config
+  stage: build
+  only:
+    - branches
+    - merge_requests
+  except:
+    - schedules
+  script:
+    - docker pull $CACHE_IMAGE || true
+    - >
+      DOCKER_BUILDKIT=1 docker build
+      --pull
+      --build-arg VCS_REF=$CI_COMMIT_SHA
+      --build-arg VCS_URL=$CI_PROJECT_URL
+      --cache-from $CACHE_IMAGE
+      --tag $IMAGE
+      --tag $CACHE_IMAGE
+      ./
+    - docker push $IMAGE
+    - docker push $CACHE_IMAGE
+
+sec-scan:
+  stage: manual-sec-scan
+
+trivy-scan-full:
+  stage: manual-sec-scan
+
+trivy-scan-severe:
+  stage: manual-sec-scan
+
+all-scan:
+  stage: manual-sec-scan
+
