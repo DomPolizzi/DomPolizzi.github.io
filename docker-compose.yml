@@ -1,6 +1,6 @@
 services:
   jekyll-container:
-    image: dev-image:latest
+    build: . 
     container_name: dev_jekyll
     restart: always
     tty: true
