@@ -1,0 +1,6 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+.gitignore
+_LICENSE.md
+_README.md

@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  jekyll-container:
+    image: dev-image:latest
+    container_name: dev_jekyll
+    restart: always
+    tty: true
+    volumes:
+      - ./app:/app
+      - ./dev-configs:/etc/nginx/conf.d
+    ports:
+      - "80:80"
+networks:
+  my-network:
+    driver: bridge
