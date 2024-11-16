@@ -1,6 +1,6 @@
 basic_settings:
   site_title: Dominic Polizzi
-  site_tagline: Passionate Tinkerer and Researcher. Networking, Cloud, InfoSec, & DevOps
+  site_tagline: Proceed and Succeed
   favicon_image: /images/favicon.png
 
 header_settings:
@@ -10,10 +10,10 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Articles'
-      url: '/'
+###    - title: 'Articles'
+###      url: '/'
     - title: 'Projects'
-      url: '/projects/'
+      url: '/'
     - title: 'About'
       url: '/about'
     - title: 'Contact'
@@ -23,7 +23,7 @@ grid_settings:
   grid_spacing: 10
 
 contact_settings:
-  form_action: 'https://formspree.io/f/xzbordop'
+  form_action: 'https://formspree.io/f/mjkvobwj'
   confirmation_url: '/thanks'
   email_subject: 'Contact form submission'
   send_button_text: 'Send Message'
@@ -57,23 +57,24 @@ social_settings:
   linkedin_url: 'https://www.linkedin.com/in/dominic-polizzi/'
 
 color_settings:
-  background_color: '#ffffff'
-  background_alt_color: '#F5F7FA'
-  text_dark_color: '#2A2F36'
-  text_medium_color: '#6C7A89'
-  text_light_color: '#ABB7B7'
-  accent_color: '#A2DED0'
-  border_color: '#dddddd'
-  overlay_background_color: '#161B21'
-  overlay_text_color: '#ffffff'
-  error_color: '#D64541'
+  background_color: '#121212'          # Deep black-gray for the main background
+  background_alt_color: '#1E1E1E'      # Slightly lighter for sections or cards
+  text_dark_color: '#E0E0E0'           # Light gray for primary text
+  text_medium_color: '#A8A8A8'         # Medium gray for secondary text
+  text_light_color: '#737373'          # Dark gray for subtle or muted text
+  accent_color: '#00FFAB'              # Bright neon green for hacker-style accents
+  border_color: '#2A2A2A'              # Soft black for subtle borders
+  overlay_background_color: '#0D1117'  # Overlay dark background for modals
+  overlay_text_color: '#E6E6E6'        # Light gray text on overlays
+  error_color: '#FF5555'               # Bright red for errors
+
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">'
-  title_font: '"Inconsolata"'
-  body_font: '"Inconsolata"'
+  font_embed: '<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">'
+  title_font: '"PT Serif"'
+  body_font: '"PT Serif"'
   regular_weight: 400
-  bold_weight: 600
+  bold_weight: 700
   site_title:
     small_size: 25
     medium_size: 30

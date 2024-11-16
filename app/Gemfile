@@ -1,9 +1,13 @@
 
 source 'https://rubygems.org'
 
-gem 'jekyll'
+gem 'jekyll', '~> 4.3', '>= 4.3.4'
 
 gem 'bundler'
+
+gem 'rouge', '~> 4.4', '>= 4.4.0'
+gem 'webrick', '~> 1.8', '>=1.8.2'
+gem 'sass-embedded', '~> 1.80', '>= 1.80.4'
 
 group :jekyll_plugins do
     gem 'jekyll-paginate'
