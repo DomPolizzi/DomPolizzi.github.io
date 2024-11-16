@@ -3,7 +3,7 @@ title: Install Gitlab Runners on Kubernetes
 subtitle: Gitlab 16.0+ Method for creating Gitlab Runners on Kubernetes
 description: In GitLab 16.0, a new runner creation workflow was introduced that uses authentication tokens to register runners. The legacy workflow that uses registration tokens is deprecated and will be removed in GitLab 17.0.Gitlab GUI
 date: 2023-08-07 00:00:00
-featured_image: /images/demo/demo-landscape-2.jpg
+featured_image: /images/site-assets/sidebar-3.jpg
 ---
 
 As the title suggests, there are new ways of configuring Gitlab Runners, we will be starting the process in the GITLAB Web GUI

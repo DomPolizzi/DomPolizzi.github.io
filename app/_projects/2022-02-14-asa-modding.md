@@ -3,7 +3,7 @@ title: Install OPNSense and Linux on Cisco ASA
 subtitle: Open Source your blackbox Cisco firewall
 description: Free your Cisco ASA from closed-source firmware and put linux/bsd on it instead!
 date: 2022-02-14 00:00:00
-featured_image: /images/demo/demo-portrait.jpg
+featured_image: /images/site-assets/tux.jpg
 ---
 
 ## Install OPNSense or Linux on Cisco ASA
