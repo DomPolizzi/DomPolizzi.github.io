@@ -1,6 +1,6 @@
 site: Tech blog
-url: https://voidrealmsolutions.com
-baseurl: https://voidrealmsolutions.com
+url:
+baseurl:
 
 collections:
   pages:
