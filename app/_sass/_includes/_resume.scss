@@ -1,0 +1,104 @@
+/* Resume Styles - Enhanced styling for resume content within .single */
+
+.single {
+  
+  // Resume-specific styling
+  h2 {
+    color: $accent-color !important;
+    border-bottom: 2px solid $accent-color;
+    padding-bottom: 10px;
+    margin-top: 40px !important;
+    margin-bottom: 20px !important;
+    
+    &:first-child {
+      margin-top: 0 !important;
+    }
+  }
+  
+  h3 {
+    color: $text-dark-color !important;
+    margin-top: 30px !important;
+    margin-bottom: 10px !important;
+    font-weight: $bold-weight !important;
+  }
+  
+  p {
+    color: $text-medium-color !important;
+    line-height: 1.7 !important;
+    margin-bottom: 15px !important;
+  }
+  
+  ul {
+    margin-bottom: 20px !important;
+    
+    li {
+      color: $text-medium-color !important;
+      margin-bottom: 8px !important;
+      line-height: 1.6 !important;
+      
+      &::marker {
+        color: $accent-color;
+      }
+    }
+  }
+  
+  strong {
+    color: $text-dark-color !important;
+    font-weight: $bold-weight !important;
+  }
+  
+  em {
+    color: $text-light-color !important;
+    font-style: italic !important;
+  }
+  
+  a {
+    color: $accent-color !important;
+    text-decoration: none !important;
+    border-bottom: 1px solid transparent !important;
+    transition: border-bottom-color 0.3s ease !important;
+    
+    &:hover {
+      border-bottom-color: $accent-color !important;
+    }
+  }
+  
+  hr {
+    border: none !important;
+    height: 2px !important;
+    background: $accent-color !important;
+    margin: 30px auto !important;
+    opacity: 0.3;
+  }
+  
+  // Professional experience styling - company and date info
+  h3 + p {
+    font-style: italic !important;
+    color: $text-light-color !important;
+    margin-bottom: 15px !important;
+    font-size: 0.9em !important;
+  }
+  
+  // Contact information styling
+  p:last-child {
+    text-align: center !important;
+    font-style: italic !important;
+    color: $text-light-color !important;
+    margin-top: 40px !important;
+  }
+}
+
+// Mobile responsiveness for resume
+@media (max-width: 768px) {
+  .single {
+    h2 {
+      font-size: 24px !important;
+      margin-top: 30px !important;
+    }
+    
+    h3 {
+      font-size: 20px !important;
+      margin-top: 25px !important;
+    }
+  }
+}

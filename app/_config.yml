@@ -37,6 +37,11 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+  -
+    scope:
+      path: "index.html"
+    values:
+      layout: "resume"
 
 markdown: kramdown
 
@@ -53,4 +58,3 @@ plugins:
 
 paginate: 6
 paginate_path: "/project/page:num/"
-   

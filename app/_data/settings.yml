@@ -10,14 +10,14 @@ header_settings:
 
 menu_settings:
   menu_items:
-###    - title: 'Articles'
-###      url: '/'
-    - title: 'Projects'
+    - title: 'Resume'
       url: '/'
-    - title: 'About'
+    - title: 'Blog'
+      url: '/projects'
+    - title: '$ Whoami'
       url: '/about'
     - title: 'Contact'
-      url: '/contact'
+      url: 'https://www.openzephyr.com/home#contact'
 
 grid_settings:
   grid_spacing: 10

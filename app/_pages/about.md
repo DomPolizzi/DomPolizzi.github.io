@@ -2,29 +2,35 @@
 title: $ Whoami
 subtitle:
 description:
-featured_image: /images/site-assets/sidebar-3.jpg
+featured_image: /images/site-assets/sidebar-5.jpg
 ---
 
-![](/images/demo/beyond-light.jpg)
+# Hey there — I’m **Dominic** 👋
 
-# Hi, I'm **Dominic**
+I’m a roaming **cloud & security engineer** fueled by curiosity and systems thinking — from automating Kubernetes clusters and hardening networks to translating technical patterns into immersive soundscapes. When I’m not in front of a terminal, you’ll likely find me on a trail, passport in hand, soaking up new horizons and local cuisine.
 
-  A passionate and detail-oriented **Engineer** and **Architect**. With a strong foundation in cybersecurity and DevOps, I specialize in bridging the gap between secure application development and cutting-edge AI technologies. My career is driven by a commitment to delivering innovative solutions while maintaining robust security and operational efficiency.
+---
 
-## Professional Expertise
+## Professional Focus
 
-- **Cybersecurity & Purple Teaming**: Skilled in identifying vulnerabilities and strengthening systems to safeguard critical infrastructure. I have a keen interest in security, privacy, and ethical hacking.
-- **DevSecOps & Automation**: Experienced in streamlining CI/CD pipelines, managing containerized environments, and integrating security into every phase of the software lifecycle.
-- **AI & Machine Learning**: Building **Retrieval-Augmented Generation (RAG)** chatbots, optimizing machine learning workflows with tools like TensorFlow, Ollama, OpenAI, and integrating vector databases like Chroma.
-- **Infrastructure & Networking**: Proficient in Docker, Kubernetes, Cloud Infrastructures, Proxies, and Router configurations. I've worked extensively on both cloud and on-premises systems.
+- **Cybersecurity & Purple Teaming**  ·  Identify blind spots, patch them, and codify lessons into repeatable defense playbooks.  
+- **DevSecOps Automation**  ·  Bake compliance into CI/CD with Terraform, Kubernetes, and policy‑as‑code.  
+- **LLM & AI Engineering**  ·  Build Retrieval‑Augmented Generation (RAG) chatbots and private LLM stacks with Ollama, LangChain, and vector stores like Chroma.  
+- **Infrastructure & Networking**  ·  Operate Docker and Kubernetes at scale on AWS, GCP, and bare‑metal; tune proxies, firewalls, and router configs for zero‑trust connectivity.
 
+---
 
+## When I’m Not Shipping Code
 
+- **Travel & Culture 🌎**  ·  Collecting passport stamps and street‑food recipes. Recent favorites: Seeing Iguaçu Falls, Onsens in Bepu, and Rio's blend of city and nature.  
+- **Music Production 🎧**  ·  Releasing melodic bass & halftime tracks as **Poelyte** — listen on [SoundCloud](https://soundcloud.com/poelyte).  
+- **Nature Finding**  ·  Recharging within nature's embrace, whether it's a hike or a bike ride.  
+- **Community & Learning 🤝**  ·  Hosting CTF workshops with DC702 and mentoring newcomers on secure coding and infra‑as‑code best practices.
 
-## Outside of Work
+---
 
-When I'm not diving into tech, I am usually out moving around or diving into music production. Check out my tunes on [Soundcloud](https://soundcloud.com/poelyte)
+## Let’s Connect
 
-Feel free to explore my projects and reach out if you're interested in collaborating or learning more about my work!
+Have a project idea, need DevSecOps guidance, or just want to trade travel recommendations? [Drop me a note](https://www.openzephyr.com/home#contact) or say hi on [LinkedIn](https://www.linkedin.com/in/dominic-polizzi/). Always open to collaborations, mentorship, and intriguing side‑quests!
 
 ---
