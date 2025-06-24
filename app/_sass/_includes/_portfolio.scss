@@ -96,3 +96,74 @@
 	margin-top: 5px;
 	color: rgba($overlay-text-color, 0.7);
 }
+
+.portfolio-item__description {
+	margin-top: 10px;
+	color: rgba($overlay-text-color, 0.8);
+	font-size: 14px;
+	line-height: 1.4;
+	max-width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// Enhanced layout for projects with summaries
+.portfolio-item--with-summary {
+	
+	.portfolio-item__content {
+		position: static;
+		opacity: 1;
+		visibility: visible;
+		background: $background-alt-color;
+		padding: 20px;
+		margin-top: 0;
+		
+		@include mq(tabletl) {
+			margin-top: -60px;
+			position: relative;
+			z-index: 2;
+		}
+	}
+	
+	.portfolio-item__info {
+		text-align: left;
+		
+		@include mq(tabletl) {
+			text-align: center;
+		}
+	}
+	
+	.portfolio-item__title {
+		color: $text-dark-color;
+		font-size: 20px;
+		margin-bottom: 8px;
+	}
+	
+	.portfolio-item__subtitle {
+		color: $text-medium-color;
+		font-size: 16px;
+		margin-bottom: 12px;
+	}
+	
+	.portfolio-item__description {
+		color: $text-light-color;
+		font-size: 14px;
+		line-height: 1.5;
+		max-width: 100%;
+		
+		@include mq(tabletl) {
+			max-width: 80%;
+		}
+	}
+	
+	.portfolio-item__image {
+		@include mq(tabletl) {
+			border-radius: 8px 8px 0 0;
+		}
+	}
+	
+	&:hover .portfolio-item__content {
+		background: rgba($background-alt-color, 0.9);
+		@include transition(background 0.2s ease-in-out);
+	}
+}
