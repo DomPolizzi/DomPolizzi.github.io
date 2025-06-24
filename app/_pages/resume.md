@@ -1,5 +1,8 @@
 ---
+title: Dominic Polizzi
+subtitle: Engineer & Technology Professional
 description: Resume of Dominic Polizzi
+featured_image: /images/site-assets/sidebar-4.jpg
 ---
 
 ## Professional Summary
