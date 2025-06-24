@@ -128,7 +128,7 @@ runners:
   config: |
     [[runners]]
       [runners.kubernetes]
-        namespace = "{{.Release.Namespace}}"
+        namespace = "{% raw %}{{.Release.Namespace}}{% endraw %}"
         image = "ubuntu:16.04" # can use ubuntu:20.04, oddly Gitlab contiunally suggests this one
         service_account = "gitlab-runner" # make sure the name of this matches the serviceAccountName specified above or runs will fail
         service_account_overwrite_allowed = ".*"
@@ -162,4 +162,3 @@ Documentation:
 - ArtifactHUB for Gitlab Runner (where we can see Helm values): https://artifacthub.io/packages/helm/gitlab/gitlab-runner
 - Helmfile: https://github.com/helmfile/helmfile#installation
 - Helm: https://helm.sh/docs/intro/install/#from-homebrew-macos
-
