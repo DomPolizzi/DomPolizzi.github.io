@@ -1,6 +1,10 @@
 <header class="header">
 
+	{% if page.featured_image %}
 	<div class="header-image header-image--on" style="background-image: url({{ page.featured_image | relative_url }});"></div>
+	{% else %}
+	<div class="header-image header-image--on" style="background-color: #121212;"></div>
+	{% endif %}
 	<div class="header-image"></div>
 
 	<div class="header-overlay"></div>

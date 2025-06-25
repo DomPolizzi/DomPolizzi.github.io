@@ -130,7 +130,7 @@ Active member of the DC702 cybersecurity group, fostering community growth and h
 
 ## Contact
 
-**Email:** [me@dompolizzi.com](mailto:me@dompolizzi.com)  
+**Email:** [LINK](https://www.openzephyr.com/home#contact)  
 **LinkedIn:** [linkedin.com/in/dominic-polizzi](https://www.linkedin.com/in/dominic-polizzi)  
 **GitHub:** [github.com/DomPolizzi](https://github.com/DomPolizzi)  
 **Location:** Seattle, WA, & Philadelphia, PA
