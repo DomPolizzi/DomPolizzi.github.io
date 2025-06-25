@@ -27,7 +27,11 @@ featured_image: /images/site-assets/sidebar-3.jpg
 
 			<a href="{{ project.url | relative_url }}" style="display: flex; align-items: flex-start; text-decoration: none; width: 100%;">
 
+				{% if project.featured_image %}
 				<div class="project-thumbnail" style="width: 120px; height: 80px; background-image: url({{ project.featured_image | relative_url }}); background-size: cover; background-position: center; border-radius: 6px; margin-right: 20px; flex-shrink: 0;"></div>
+				{% else %}
+				<div class="project-thumbnail" style="width: 120px; height: 80px; background-color: #2A2A2A; border-radius: 6px; margin-right: 20px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; color: #737373; font-size: 12px;">No Image</div>
+				{% endif %}
 
 				<div class="project-content" style="flex: 1;">
 					<h2 class="project-title" style="color: #E0E0E0; font-size: 22px; margin-bottom: 8px; font-weight: 600;">{{ project.title }}</h2>
